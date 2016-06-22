@@ -1,1 +1,1 @@
-http://codeforces.com/problemset/problem/204/B
+http://codeforces.com/problemset/problem/682/D
