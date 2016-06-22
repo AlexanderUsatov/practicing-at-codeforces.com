@@ -50,7 +50,7 @@ int main()
 
         if (up == down)
         {
-            // Gain hothing with this card turn,
+            // Gain nothing with turning this card,
             // do not count.
         }
         else
@@ -62,7 +62,7 @@ int main()
     auto bestTurnCount = numeric_limits<int>::max();
     for (auto it: indices)
     {
-        auto currentTurnCount = halfN - count_if(it.second.begin(), it.second.end(), [](int i) { return i > 0; });
+        auto const currentTurnCount = halfN - count_if(it.second.begin(), it.second.end(), [](int i) { return i > 0; });
         if (currentTurnCount <= 0)
         {
             bestTurnCount = 0;
