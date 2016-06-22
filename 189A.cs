@@ -24,7 +24,7 @@ class Program
 {
     public IEnumerable<int> GetFeasibleSolutions(int l, int a, int b, int c)
     {
-        for (var an = 0; an < l / a + 1; an++)
+        for (var an = 0; an < l / a + 1; an++) // +1 не нужен
         {
             for (var bn = 0; bn < l / b + 1; bn++)
             {
@@ -34,7 +34,7 @@ class Program
                     var cn = (dividend * 1.0) / c;
                     if (cn % 1 == 0)
                     {
-                        yield return an + bn + cn;
+                        yield return an + bn + cn; // что такое yield?
                     }
                 }
             }
