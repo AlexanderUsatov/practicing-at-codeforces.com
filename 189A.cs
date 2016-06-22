@@ -34,7 +34,10 @@ class Program
                     var cn = (dividend * 1.0) / c;
                     if (cn % 1 == 0)
                     {
-                        yield return an + bn + cn; // что такое yield?
+                        yield return an + bn + cn; // Q: что такое yield?
+                                                   // A: Каждый раз когда выполняется yield return, его значение
+                                                   //    добавляется в результирующую последовательность, в
+                                                   //    IEnumerable<int>. Это синтаксический сахар.
                     }
                 }
             }
