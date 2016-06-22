@@ -45,7 +45,8 @@ class Program
 
     static void Main()
     {
-        var input = "7 5 5 2".
+        var input = Console.
+            ReadLine().
             Split(' ').
             Select(int.Parse).
             ToArray();
