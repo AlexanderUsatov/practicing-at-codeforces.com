@@ -73,8 +73,16 @@ size_t getMaxDisjointSubstringLengthVec(vector<vector<size_t>> const substrLengt
     }
 
     substringLengthVec.push_back(lengthMax);
-    auto const lengthMaxL = getMaxDisjointSubstringLengthVec(substrLengthM, iBegin, iMaxSubstr, jBegin, jMaxSubstr, substringLengthVec);
-    auto const lengthMaxR = getMaxDisjointSubstringLengthVec(substrLengthM, iMaxSubstr + lengthMax, iEnd, jMaxSubstr + lengthMax, jEnd, substringLengthVec);
+    auto const lengthMaxL = getMaxDisjointSubstringLengthVec(
+        substrLengthM,
+        iBegin, iMaxSubstr,
+        jBegin, jMaxSubstr,
+        substringLengthVec);
+    auto const lengthMaxR = getMaxDisjointSubstringLengthVec(
+        substrLengthM,
+        iMaxSubstr + lengthMax, iEnd,
+        jMaxSubstr + lengthMax, jEnd,
+        substringLengthVec);
     substringLengthVec.push_back(max(lengthMaxL, lengthMaxR));
     substringLengthVec.push_back(min(lengthMaxL, lengthMaxR));
     return lengthMax;
