@@ -90,7 +90,7 @@ size_t getMaxDisjointSubstringLengthVec(vector<vector<size_t>> const substrLengt
 
 int main()
 {
-    size_t unused, k = 2;
+    size_t unused, k;
     cin >> unused >> unused >> k;
     string empty, s, t;
     getline(cin, empty);
