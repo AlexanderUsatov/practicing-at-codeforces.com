@@ -1,55 +1,69 @@
 #include <vector>
 #include <string>
+#include <numeric>
+#include <algorithm>
 #include <iostream>
 
 using namespace std;
 
-size_t getMaxSubstring(vector<vector<size_t>> const &arr,
-                       size_t &iBegin, size_t &iEnd,
-                       size_t &jBegin, size_t &jEnd)
+void getMaxDisjointSubstringLengthVec(vector<vector<size_t>> const substrLengthM,
+                                      size_t const iBegin, size_t const iEnd,
+                                      size_t const jBegin, size_t const jEnd,
+                                      vector<int> &substringLengthVec)
 {
-    size_t iBest = 0, jBest = 0, lengthMax = 0;
+    if (iBegin >= iEnd || jBegin >= jEnd)
+    {
+        return;
+    }
+
+    size_t iMaxSubstr = 0, jMaxSubstr = 0, lengthMax = 0;
     for (auto i = iBegin; i < iEnd; i++)
     {
         for (auto j = jBegin; j < jEnd; j++)
         {
-            if (arr[i][j] > lengthMax)
+            auto const length = substrLengthM[i][j];
+            if (length > lengthMax)
             {
-                lengthMax = arr[i][j];
-                iBest = i;
-                jBest = j;
+                lengthMax = length;
+                iMaxSubstr = i;
+                jMaxSubstr = j;
             }
         }
     }
 
-    iBegin = iBest;
-    iEnd = iBegin + lengthMax;
-    jBegin = jBest;
-    jEnd = jBegin + lengthMax;
-
-    return lengthMax;
+    substringLengthVec.push_back(lengthMax);
+    getMaxDisjointSubstringLengthVec(substrLengthM, iBegin, iMaxSubstr, jBegin, jMaxSubstr, substringLengthVec);
+    getMaxDisjointSubstringLengthVec(substrLengthM, iMaxSubstr + lengthMax, iEnd, jMaxSubstr + lengthMax, jEnd, substringLengthVec);
 }
 
 int main()
 {
-    size_t n, m, k;
-    cin >> n >> m >> k;
-    string s, t;
+    size_t unused, k = 2;
+    cin >> unused >> unused >> k;
+    string empty, s, t;
+    getline(cin, empty);
     getline(cin, s);
     getline(cin, t);
 
-    vector<vector<size_t>> arr(s.length() + 1, vector<size_t>(t.length() + 1, 0));
+    vector<vector<size_t>> subsrtingLengthM(s.length() + 1, vector<size_t>(t.length() + 1, 0));
     for (auto i = s.length(); i > 0; i--)
     {
         for (auto j = t.length(); j > 0; j--)
         {
             if (s[i - 1] == t[j - 1])
             {
-                arr[i - 1][j - 1] = arr[i][j] + 1;
+                subsrtingLengthM[i - 1][j - 1] = subsrtingLengthM[i][j] + 1;
             }
         }
     }
 
-    // TODO:
-    //
+    vector<int> substringLengthVec;
+    getMaxDisjointSubstringLengthVec(subsrtingLengthM, 0, s.length(), 0, t.length(), substringLengthVec);
+
+    sort(substringLengthVec.begin(), substringLengthVec.end());
+    reverse(substringLengthVec.begin(), substringLengthVec.end());
+    cout << accumulate(
+        substringLengthVec.begin(),
+        substringLengthVec.begin() + min(k, substringLengthVec.size()),
+        0) << endl;
 }
