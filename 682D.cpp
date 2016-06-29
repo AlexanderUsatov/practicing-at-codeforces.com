@@ -47,14 +47,14 @@
 
 using namespace std;
 
-void getMaxDisjointSubstringLengthVec(vector<vector<size_t>> const substrLengthM,
-                                      size_t const iBegin, size_t const iEnd,
-                                      size_t const jBegin, size_t const jEnd,
-                                      vector<int> &substringLengthVec)
+size_t getMaxDisjointSubstringLengthVec(vector<vector<size_t>> const substrLengthM,
+                                        size_t const iBegin, size_t const iEnd,
+                                        size_t const jBegin, size_t const jEnd,
+                                        vector<int> &substringLengthVec)
 {
     if (iBegin >= iEnd || jBegin >= jEnd)
     {
-        return;
+        return 0;
     }
 
     size_t iMaxSubstr = 0, jMaxSubstr = 0, lengthMax = 0;
@@ -73,8 +73,11 @@ void getMaxDisjointSubstringLengthVec(vector<vector<size_t>> const substrLengthM
     }
 
     substringLengthVec.push_back(lengthMax);
-    getMaxDisjointSubstringLengthVec(substrLengthM, iBegin, iMaxSubstr, jBegin, jMaxSubstr, substringLengthVec);
-    getMaxDisjointSubstringLengthVec(substrLengthM, iMaxSubstr + lengthMax, iEnd, jMaxSubstr + lengthMax, jEnd, substringLengthVec);
+    auto const lengthMaxL = getMaxDisjointSubstringLengthVec(substrLengthM, iBegin, iMaxSubstr, jBegin, jMaxSubstr, substringLengthVec);
+    auto const lengthMaxR = getMaxDisjointSubstringLengthVec(substrLengthM, iMaxSubstr + lengthMax, iEnd, jMaxSubstr + lengthMax, jEnd, substringLengthVec);
+    substringLengthVec.push_back(max(lengthMaxL, lengthMaxR));
+    substringLengthVec.push_back(min(lengthMaxL, lengthMaxR));
+    return lengthMax;
 }
 
 int main()
@@ -101,8 +104,6 @@ int main()
     vector<int> substringLengthVec;
     getMaxDisjointSubstringLengthVec(subsrtingLengthM, 0, s.length(), 0, t.length(), substringLengthVec);
 
-    sort(substringLengthVec.begin(), substringLengthVec.end());
-    reverse(substringLengthVec.begin(), substringLengthVec.end());
     cout << accumulate(
         substringLengthVec.begin(),
         substringLengthVec.begin() + min(k, substringLengthVec.size()),
