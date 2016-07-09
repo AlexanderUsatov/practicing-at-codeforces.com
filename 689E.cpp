@@ -33,7 +33,7 @@ int main()
     getline(cin, empty);
 
     map<Ll, Ll> events;
-    for (Ull i = 0; i < n; i++) {
+    for (size_t i = 0; i < n; i++) {
         Ll l, r;
         cin >> l >> r;
         getline(cin, empty);
@@ -41,10 +41,10 @@ int main()
         --events[r + 1];
     }
 
-    Ll balance = 0;
-    Ull sum = 0,
-        prev = events.begin()->first;
-    Ull const mod = 1000000007;
+    Ll balance = 0,
+       prev = events.begin()->first,
+       sum = 0;
+    Ll const mod = 1000000007;
     for (auto it: events)
     {
         if (balance >= k) {
