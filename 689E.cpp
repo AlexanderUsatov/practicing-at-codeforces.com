@@ -6,49 +6,61 @@
 #include <string>
 
 using namespace std;
+int const mod = 1000000007;
+const int nmax = 2e5 + 5;
 
-typedef unsigned long long Ull;
-typedef long long Ll;
+int f[nmax]; // factorial(i)
+int c[nmax]; // 1 / factorial(i)
 
-Ull
-choose(Ull n, Ull k) {
-    if (k > n) {
-        return 0;
+int chooseMod(int n, int k)
+{
+    int ans = (1ll * f[n] * c[k]) % mod;
+    return (1ll * ans * c[n - k]) % mod;
+}
+
+int powMod(int a,int b)
+{
+    int ans = 1;
+    while (b)
+    {
+        if (b&1) ans = (1ll * ans * a) % mod;
+        a = (1ll * a * a) % mod;
+        b /= 2;
     }
 
-    Ull r = 1;
-    for (Ull d = 1; d <= k; ++d) {
-        r *= n--;
-        r /= d;
-    }
-
-    return r;
+    return ans;
 }
 
 int main()
 {
-    size_t n, k;
+    int n, k;
     cin >> n >> k;
     string empty;
     getline(cin, empty);
 
-    map<Ll, Ll> events;
-    for (size_t i = 0; i < n; i++) {
-        Ll l, r;
+    map<int,int> events;
+    for (int i = 0; i < n; i++) {
+        int l, r;
         cin >> l >> r;
         getline(cin, empty);
         ++events[l];
         --events[r + 1];
     }
 
-    Ll balance = 0,
+    f[0] = c[0] = 1;
+    for (int i = 1;i <= n;++i)
+    {
+        f[i] = (1ll * f[i-1] * i) % mod;
+        c[i] = powMod(f[i], mod-2);
+    }
+
+    int balance = 0,
        prev = events.begin()->first,
        sum = 0;
-    Ll const mod = 1000000007;
     for (auto it: events)
     {
         if (balance >= k) {
-            sum += ((it.first - prev) * choose(balance, k)) % mod;
+            sum += (1LL * (it.first - prev) * chooseMod(balance, k)) % mod;
             sum %= mod;
         }
 
