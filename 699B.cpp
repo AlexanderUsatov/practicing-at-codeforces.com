@@ -1,4 +1,7 @@
-﻿#include <iostream>
+//
+// http://codeforces.com/contest/699/problem/B
+//
+#include <iostream>
 #include <vector>
 #include <algorithm>
 #include <iterator>
