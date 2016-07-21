@@ -1,1 +1,8 @@
 * [Исправление дерева](http://codeforces.com/contest/698/problem/B" target="_blank") / [698B.cpp](https://github.com/alpinskiy/practicing-at-codeforces.com/blob/master/698B.cpp)
+* [679/problem/B](http://codeforces.com/contest/679/problem/B) / [679B.cpp](https://github.com/alpinskiy/practicing-at-codeforces.com/blob/master/679B.cpp)
+* [689/problem/E](http://codeforces.com/contest/689/problem/E) / [689E.cpp](https://github.com/alpinskiy/practicing-at-codeforces.com/blob/master/689E.cpp)
+* [189/A](http://codeforces.com/problemset/problem/189/A) / [189A.cs](https://github.com/alpinskiy/practicing-at-codeforces.com/blob/master/189A.cs)
+* [problem/204/B](http://codeforces.com/problemset/problem/204/B) / [204B.cpp](https://github.com/alpinskiy/practicing-at-codeforces.com/blob/master/204B.cpp)
+* [489/C](http://codeforces.com/problemset/problem/489/C) / [489C.cs](https://github.com/alpinskiy/practicing-at-codeforces.com/blob/master/489C.cs)
+* [problem/616/B](http://codeforces.com/problemset/problem/616/B) / [616B.cs](https://github.com/alpinskiy/practicing-at-codeforces.com/blob/master/616B.cs)
+* [682/problem/D](http://codeforces.com/contest/682/problem/D) / [682D.cpp](https://github.com/alpinskiy/practicing-at-codeforces.com/blob/master/682D.cpp)
