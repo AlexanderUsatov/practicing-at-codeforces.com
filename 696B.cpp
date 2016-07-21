@@ -1,3 +1,6 @@
+//
+// http://codeforces.com/problemset/problem/696/B
+//
 #include <iostream>
 #include <vector>
 #include <map>
