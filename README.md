@@ -1,4 +1,4 @@
-* [Исправление дерева](http://codeforces.com/contest/698/problem/B" target="_blank") -> [698B.cpp](https://github.com/alpinskiy/practicing-at-codeforces.com/blob/master/698B.cpp)
+* [Исправление дерева](http://codeforces.com/contest/698/problem/B") -> [698B.cpp](https://github.com/alpinskiy/practicing-at-codeforces.com/blob/master/698B.cpp)
 * [Медвежонок и башни из кубиков](http://codeforces.com/contest/679/problem/B) -> [679B.cpp](https://github.com/alpinskiy/practicing-at-codeforces.com/blob/master/679B.cpp)
 * [Майк и геометрическая задача](http://codeforces.com/contest/689/problem/E) -> [689E.cpp](https://github.com/alpinskiy/practicing-at-codeforces.com/blob/master/689E.cpp)
 * [Разрежь ленточку](http://codeforces.com/problemset/problem/189/A) -> [189A.cs](https://github.com/alpinskiy/practicing-at-codeforces.com/blob/master/189A.cs)
