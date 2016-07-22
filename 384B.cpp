@@ -1,3 +1,6 @@
+//
+// http://codeforces.com/contest/384/problem/B
+//
 #include <iostream>
 
 using namespace std;
