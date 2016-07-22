@@ -1,5 +1,6 @@
 http://codeforces.com/problemset
 
+* [Барникл](http://codeforces.com/problemset/problem/697/B) -> [697B.cpp](https://github.com/alpinskiy/practicing-at-codeforces.com/blob/master/697B.cpp)
 * [Puzzles](http://codeforces.com/problemset/problem/696/B) -> [696B.cpp](https://github.com/alpinskiy/practicing-at-codeforces.com/blob/master/696B.cpp)
 * [Исправление дерева](http://codeforces.com/contest/698/problem/B") -> [698B.cpp](https://github.com/alpinskiy/practicing-at-codeforces.com/blob/master/698B.cpp)
 * [Одна бомба](http://codeforces.com/contest/699/problem/B) -> [699B.cpp](https://github.com/alpinskiy/practicing-at-codeforces.com/blob/master/699B.cpp)
