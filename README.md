@@ -1,5 +1,5 @@
 http://codeforces.com/problemset
-
+* [Они повсюду](http://codeforces.com/problemset/problem/701/C)
 * [Мультизадачность](http://codeforces.com/problemset/problem/384/B) -> [384B.cpp](https://github.com/alpinskiy/practicing-at-codeforces.com/blob/master/384B.cpp)
 * [Барникл](http://codeforces.com/problemset/problem/697/B) -> [697B.cpp](https://github.com/alpinskiy/practicing-at-codeforces.com/blob/master/697B.cpp)
 * [Puzzles](http://codeforces.com/problemset/problem/696/B) -> [696B.cpp](https://github.com/alpinskiy/practicing-at-codeforces.com/blob/master/696B.cpp)
