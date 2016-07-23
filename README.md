@@ -1,4 +1,5 @@
 http://codeforces.com/problemset/page/10?order=BY_SOLVED_DESC
+* [Разделение на команды](http://codeforces.com/problemset/problem/149/C) -> [149C.cpp](https://github.com/alpinskiy/practicing-at-codeforces.com/blob/master/149C.cpp)
 * [Фрукты](http://codeforces.com/problemset/problem/12/C) -> [12C.cpp](https://github.com/alpinskiy/practicing-at-codeforces.com/blob/master/12C.cpp)
 * [Выравнивание по центру](http://codeforces.com/problemset/problem/5/B) -> [5B.cpp](https://github.com/alpinskiy/practicing-at-codeforces.com/blob/master/5B.cpp)
 * [Две таблицы](http://codeforces.com/problemset/problem/228/B) -> [228B.cpp](https://github.com/alpinskiy/practicing-at-codeforces.com/blob/master/228B.cpp)
