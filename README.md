@@ -1,4 +1,4 @@
-http://codeforces.com/problemset
+http://codeforces.com/problemset/page/10?order=BY_SOLVED_DESC
 * [Две таблицы](http://codeforces.com/problemset/problem/228/B) -> [228B.cpp](https://github.com/alpinskiy/practicing-at-codeforces.com/blob/master/228B.cpp)
 * [Они повсюду](http://codeforces.com/problemset/problem/701/C) -> [701C.cpp](https://github.com/alpinskiy/practicing-at-codeforces.com/blob/master/701C.cpp)
 * [Мультизадачность](http://codeforces.com/problemset/problem/384/B) -> [384B.cpp](https://github.com/alpinskiy/practicing-at-codeforces.com/blob/master/384B.cpp)
