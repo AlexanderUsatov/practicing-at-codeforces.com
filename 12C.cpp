@@ -1,5 +1,5 @@
 //
-// Выравнивание по центру
+// Фрукты
 // http://codeforces.com/problemset/problem/5/B
 //
 #include <bits/stdc++.h>
