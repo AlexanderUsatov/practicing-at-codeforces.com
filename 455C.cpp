@@ -10,10 +10,10 @@ int const NMax = 300001;
 int n, m, q;
 int uf[NMax]; // union find
 int r[NMax]; // rank
-vector<int> al[NMax]; // adjacency list
+list<int> al[NMax]; // adjacency list
 int dst[NMax]; // distance (bfs)
 int dia[NMax]; // diameter
-int visited[NMax];
+set<int> visited;
 
 int find(int a)
 {
@@ -51,48 +51,45 @@ void join(int a, int b)
   }
 }
 
-void bfs(int a)
+int bfs(int a)
+// returns index of maximum dst[index] found
 {
-  fill(visited, visited + n + 1, 0);
-
   if (uf[a] == 0)
   {
     uf[a] = a;
     r[a] = 1;
   }
 
+  int i = a;
   queue<int> q;
-  for (visited[a] = 1, q.push(a); !q.empty();)
+  for (auto v : visited) dst[v] = 0;
+  for (visited.clear(), visited.insert(a), q.push(a); !q.empty();)
   {
     int v = q.front(); q.pop();
     for (auto w : al[v])
     {
-      if (visited[w] == 0)
+      if (visited.insert(w).second)
       {
-        visited[w] = 1;
         dst[w] = dst[v] + 1;
+        i = w;
         q.push(w);
         if (uf[w] == 0) uf[w] = a;
       }
     }
   }
+
+  return i;
 }
 
 int diameter(int a)
 {
-  fill(dst, dst + n + 1, 0);
-  bfs(a);
-  auto const d1 = max_element(dst, dst + n + 1);
-  auto const d1v = *d1;
-  fill(dst, dst + n + 1, 0);
-  bfs(distance(dst, d1));
-  return max(d1v, *max_element(dst, dst + n + 1));
+  auto const i = bfs(a);
+  auto const v = dst[i];
+  return max(v, dst[bfs(i)]);
 }
 
 int main()
 {
-  //ifstream input("input.txt"); cin.rdbuf(input.rdbuf());
-
   cin >> n >> m >> q;
 
   for (int i = 0; i < m; i++)
