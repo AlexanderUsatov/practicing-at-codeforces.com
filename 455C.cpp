@@ -11,7 +11,7 @@ int n, m, q;
 int uf[NMax]; // union find
 int r[NMax]; // union find, rank
 list<int> al[NMax]; // adjacency list
-int dst[NMax]; // distance (bfs)
+int dst[NMax]; // distance, bfs
 int dia[NMax]; // diameter
 set<int> visited;
 
