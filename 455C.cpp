@@ -13,7 +13,7 @@ int r[NMax]; // union find, rank
 list<int> al[NMax]; // adjacency list
 int dst[NMax]; // distance, bfs
 int dia[NMax]; // diameter
-set<int> visited; // used both for bfs and union find path compression
+unordered_set<int> visited; // used both for bfs and union find path compression
 
 int find(int a)
 {
