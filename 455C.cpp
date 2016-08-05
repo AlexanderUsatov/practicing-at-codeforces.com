@@ -19,7 +19,7 @@ int find(int a)
 {
   int b = a;
   for (visited.clear(); uf[b] != b; visited.insert(b), b = uf[b]);
-  for (auto v : visited) uf[v] = b;
+  for (auto v : visited) uf[v] = b; // union find path compression
   return b;
 }
 
