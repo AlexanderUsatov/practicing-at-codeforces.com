@@ -96,8 +96,11 @@ int main()
   for (int i = 0; i < m; i++)
   {
     int a, b; cin >> a >> b;
-    al[a].push_back(b);
-    al[b].push_back(a);
+    if (a != b)
+    {
+      al[a].push_back(b);
+      al[b].push_back(a);
+    }
   }
 
   for (int i = 1; i <= n; i++)
