@@ -93,6 +93,7 @@ int main()
   ios::sync_with_stdio(false);
   cin >> n >> m >> q;
 
+  // read initial graph structure
   for (int i = 0; i < m; i++)
   {
     int a, b; cin >> a >> b;
@@ -102,7 +103,8 @@ int main()
       al[b].push_back(a);
     }
   }
-
+  
+  // compute initial diameters of connected components
   for (int i = 1; i <= n; i++)
   {
     // if union find knows nothing about node i,
@@ -115,6 +117,7 @@ int main()
     }
   }
 
+  // main loop
   for (int i = 0; i < q; i++)
   {
     int e, a; cin >> e >> a;
