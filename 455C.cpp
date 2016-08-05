@@ -108,7 +108,7 @@ int main()
   for (int i = 1; i <= n; i++)
   {
     // if union find knows nothing about node i,
-    // then diameter for component containing it
+    // then diameter for the component containing it
     // was not yet computed (union find structure
     // is filled while computing diameters).
     if (uf[i] == 0)
