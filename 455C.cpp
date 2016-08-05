@@ -18,8 +18,8 @@ set<int> visited;
 int find(int a)
 {
   int b = a;
-  for (; uf[b] != b; b = uf[b]);
-  uf[a] = b;
+  for (visited.clear(); uf[b] != b; visited.insert(b), b = uf[b]);
+  for (auto v : visited) uf[v] = b;
   return b;
 }
 
@@ -90,6 +90,7 @@ int diameter(int a)
 
 int main()
 {
+  ios::sync_with_stdio(false);
   cin >> n >> m >> q;
 
   for (int i = 0; i < m; i++)
