@@ -1,4 +1,5 @@
 http://codeforces.com/problemset/page/11?order=BY_SOLVED_DESC
+* [Джефф и округления](http://codeforces.com/problemset/problem/351/A) -> [351A.cpp](https://github.com/alpinskiy/practicing-at-codeforces.com/blob/master/351A.cpp) (дп, жадные алгоритмы, математика, реализаци)
 * [И снова ...](http://codeforces.com/problemset/problem/582/B) -> [582B.cpp](https://github.com/alpinskiy/practicing-at-codeforces.com/blob/master/582B.cpp) (ДП, матрицы)
 * [Цивилизация](http://codeforces.com/problemset/problem/455/C) -> [455C.cpp](https://github.com/alpinskiy/practicing-at-codeforces.com/blob/master/455C.cpp)
 * [Протест Джерри](http://codeforces.com/problemset/problem/626/D) -> [626D.cpp](https://github.com/alpinskiy/practicing-at-codeforces.com/blob/master/626D.cpp)
