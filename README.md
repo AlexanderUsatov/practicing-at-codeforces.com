@@ -1,4 +1,5 @@
 http://codeforces.com/problemset/page/11?order=BY_SOLVED_DESC
+* [Мультимножество Василия](http://codeforces.com/problemset/problem/706/D)
 * [Jzzhu и города](http://codeforces.com/problemset/problem/449/B) -> [449B.cpp](https://github.com/alpinskiy/practicing-at-codeforces.com/blob/master/449B.cpp) (графы, кратчайшие пути)
 * [Наидлиннейший k-хороший подотрезок](http://codeforces.com/problemset/problem/616/D) -> [616D.cpp](https://github.com/alpinskiy/practicing-at-codeforces.com/blob/master/616D.cpp) (два указателя)
 * [Джефф и округления](http://codeforces.com/problemset/problem/351/A) -> [351A.cpp](https://github.com/alpinskiy/practicing-at-codeforces.com/blob/master/351A.cpp) (дп, жадные алгоритмы, математика, реализаци)
