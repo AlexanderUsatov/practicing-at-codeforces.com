@@ -22,4 +22,4 @@ http://codeforces.com/problemset/page/11?order=BY_SOLVED_DESC
 * [Маленький Слоник и карточки](http://codeforces.com/problemset/problem/204/B) -> [204B.cpp](https://github.com/alpinskiy/practicing-at-codeforces.com/blob/master/204B.cpp)
 * [Даны длина и сумма цифр...](http://codeforces.com/problemset/problem/489/C) -> [489C.cs](https://github.com/alpinskiy/practicing-at-codeforces.com/blob/master/489C.cs)
 * [Ужин с Наташей](http://codeforces.com/problemset/problem/616/B) -> [616B.cs](https://github.com/alpinskiy/practicing-at-codeforces.com/blob/master/616B.cs)
-* [Алёна и строки](http://codeforces.com/contest/682/problem/D) -> [682D.cpp](https://github.com/alpinskiy/practicing-at-codeforces.com/blob/master/682D.cpp) (ДП, строки)
+* [Алёна и строки](http://codeforces.com/contest/682/problem/D) -> [682D.cpp](https://github.com/alpinskiy/practicing-at-codeforces.com/blob/master/682D.cpp) (дп, строки)
