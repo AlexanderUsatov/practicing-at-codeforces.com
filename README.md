@@ -1,4 +1,5 @@
 http://codeforces.com/problemset/page/11?order=BY_SOLVED_DESC
+* [Мистер Китаюта, охотник за сокровищами](http://codeforces.com/contest/505/problem/C) -> [505C.cpp](https://github.com/alpinskiy/practicing-at-codeforces.com/blob/master/src/505C.cpp) (дп)
 * [Трубопровод](http://codeforces.com/problemset/problem/287/B) -> [287B.cpp](https://github.com/alpinskiy/practicing-at-codeforces.com/blob/master/src/287B.cpp) (бинарный поиск, математика)
 * [Мультимножество Василия](http://codeforces.com/problemset/problem/706/D) -> [706D.cpp](https://github.com/alpinskiy/practicing-at-codeforces.com/blob/master/src/706D.cpp) (бинарный поиск)
 * [Jzzhu и города](http://codeforces.com/problemset/problem/449/B) -> [449B.cpp](https://github.com/alpinskiy/practicing-at-codeforces.com/blob/master/src/449B.cpp) (графы, кратчайшие пути)
