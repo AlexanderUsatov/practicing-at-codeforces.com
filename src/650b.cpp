@@ -1,6 +1,3 @@
-//
-// http://codeforces.com/problemset/problem/287/B
-//
 #include <bits/stdc++.h>
 using namespace std;
 
