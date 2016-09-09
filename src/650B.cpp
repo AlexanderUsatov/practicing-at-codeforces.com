@@ -48,14 +48,14 @@ int slide_right()
 int slide_left_right(int l)
 {
     int r = 1, ret = 0;
-    for (; l < n - 1; l++)
+    for (; l < n; l++)
     {
-        auto t = sl[l] + (n - l)*a + sr[r] - 1;
-        for (; t > T && l < n - 1; l++, t = sl[l] + (n - l)*a + sr[r] - 1);
+        auto t = sl[l] + (n - l)*a + sr[r] - sr[0];
+        for (; t > T && l < n - 1; l++, t = sl[l] + (n - l)*a + sr[r] - sr[0]);
         if (t > T && l == n - 1)
             break;
 
-        for (; r < n - 2 && sl[l] + (n - l)*a + sr[r + 1] - 1 <= T; r++, t = sl[l] + (n - l)*a + sr[r] - 1);
+        for (; r < n - 2 && sl[l] + (n - l)*a + sr[r + 1] - sr[0] <= T; r++, t = sl[l] + (n - l)*a + sr[r] - sr[0]);
         ret = max(ret, n - l + r + 1);
     }
 
@@ -67,12 +67,12 @@ int slide_right_left(int r)
     int l = n - 1, ret = 0;
     for (; r > 0; r--)
     {
-        auto t = sr[r] + r*a + sl[l] - 1;
-        for (; t > T && r > 1; r--, t = sr[r] + r*a + sl[l] - 1);
+        auto t = sr[r] + r*a + sl[l] - sl[0];
+        for (; t > T && r > 1; r--, t = sr[r] + r*a + sl[l] - sl[0]);
         if (t > T && r == 1)
             break;
 
-        for (; l > 1 && sr[r] + r*a + sl[l - 1] - 1 <= T; l--, t = sr[r] + r*a + sl[l] - 1);
+        for (; l > 1 && sr[r] + r*a + sl[l - 1] - sl[0] <= T; l--, t = sr[r] + r*a + sl[l] - sl[0]);
         ret = max(ret, n - l + r + 1);
     }
 
