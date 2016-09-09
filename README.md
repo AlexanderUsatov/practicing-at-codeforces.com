@@ -1,5 +1,5 @@
 http://codeforces.com/problemset/page/11?order=BY_SOLVED_DESC
-* [Просмотр фотографий](http://codeforces.com/problemset/problem/650/B) -> [650b.cpp](https://github.com/alpinskiy/practicing-at-codeforces.com/blob/master/src/650b.cpp)
+* [Просмотр фотографий](http://codeforces.com/problemset/problem/650/B) -> [650b.cpp](https://github.com/alpinskiy/practicing-at-codeforces.com/blob/master/src/650B.cpp)
 * [Мешок мышек](http://codeforces.com/problemset/problem/148/D) -> [148D.cpp](https://github.com/alpinskiy/practicing-at-codeforces.com/blob/master/src/148D.cpp) (теория вероятностей)
 * [Мистер Китаюта, охотник за сокровищами](http://codeforces.com/contest/505/problem/C) -> [505C.cpp](https://github.com/alpinskiy/practicing-at-codeforces.com/blob/master/src/505C.cpp) (дп)
 * [Трубопровод](http://codeforces.com/problemset/problem/287/B) -> [287B.cpp](https://github.com/alpinskiy/practicing-at-codeforces.com/blob/master/src/287B.cpp) (бинарный поиск, математика)
