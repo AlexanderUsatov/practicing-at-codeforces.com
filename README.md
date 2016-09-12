@@ -1,5 +1,5 @@
 http://codeforces.com/problemset/page/11?order=BY_SOLVED_DESC
-* [Значения, которые возможно набрать](http://codeforces.com/problemset/problem/687/C)
+* [Значения, которые возможно набрать](http://codeforces.com/problemset/problem/687/C) -> [687C.cpp](https://github.com/alpinskiy/practicing-at-codeforces.com/blob/master/src/687C.cpp) (дп)
 * [Выбор столицы Древляндии](http://codeforces.com/problemset/problem/219/D) -> [219D.cpp](https://github.com/alpinskiy/practicing-at-codeforces.com/blob/master/src/219D.cpp) (деревья, дп, поиск в глубину и подобное)
 * [Просмотр фотографий](http://codeforces.com/problemset/problem/650/B) -> [650B.cpp](https://github.com/alpinskiy/practicing-at-codeforces.com/blob/master/src/650B.cpp) (два указателя)
 * [Мешок мышек](http://codeforces.com/problemset/problem/148/D) -> [148D.cpp](https://github.com/alpinskiy/practicing-at-codeforces.com/blob/master/src/148D.cpp) (теория вероятностей)
