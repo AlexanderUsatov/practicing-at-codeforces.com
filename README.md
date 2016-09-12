@@ -1,5 +1,5 @@
 http://codeforces.com/problemset/page/11?order=BY_SOLVED_DESC
-* [Выбор столицы Древляндии](http://codeforces.com/problemset/problem/219/D)
+* [Выбор столицы Древляндии](http://codeforces.com/problemset/problem/219/D) -> [219D.cpp](https://github.com/alpinskiy/practicing-at-codeforces.com/blob/master/src/219D.cpp) (деревья, дп, поиск в глубину и подобное)
 * [Просмотр фотографий](http://codeforces.com/problemset/problem/650/B) -> [650B.cpp](https://github.com/alpinskiy/practicing-at-codeforces.com/blob/master/src/650B.cpp) (два указателя)
 * [Мешок мышек](http://codeforces.com/problemset/problem/148/D) -> [148D.cpp](https://github.com/alpinskiy/practicing-at-codeforces.com/blob/master/src/148D.cpp) (теория вероятностей)
 * [Мистер Китаюта, охотник за сокровищами](http://codeforces.com/contest/505/problem/C) -> [505C.cpp](https://github.com/alpinskiy/practicing-at-codeforces.com/blob/master/src/505C.cpp) (дп)
