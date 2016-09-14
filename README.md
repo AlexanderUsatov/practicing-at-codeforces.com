@@ -1,3 +1,6 @@
+[Edit](https://github.com/alpinskiy/practicing-at-codeforces.com/edit/master/README.md)
+
+
 http://codeforces.com/problemset/page/11?order=BY_SOLVED_DESC  
 http://codeforces.com/problemset/tags/dp?order=BY_SOLVED_DESC
 * [Пазлы](http://codeforces.com/problemset/problem/337/A) -> [337A.cpp](https://github.com/alpinskiy/practicing-at-codeforces.com/blob/master/src/337A.cpp) (дп)
