@@ -1,6 +1,6 @@
-+-------------------+--------------------+  
-| [Edit README.md](https://github.com/alpinskiy/practicing-at-codeforces.com/edit/master/README.md) | [Create source file](https://github.com/alpinskiy/practicing-at-codeforces.com/new/master/src) |  
-+-------------------+--------------------+  
++--------------------+--------------------+  
+|| [Edit README.md](https://github.com/alpinskiy/practicing-at-codeforces.com/edit/master/README.md) || [Create source file](https://github.com/alpinskiy/practicing-at-codeforces.com/new/master/src) ||  
++--------------------+--------------------+  
 
 http://codeforces.com/problemset/page/11?order=BY_SOLVED_DESC  
 http://codeforces.com/problemset/tags/dp?order=BY_SOLVED_DESC  
