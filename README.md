@@ -6,7 +6,7 @@ http://codeforces.com/problemset/page/11?order=BY_SOLVED_DESC
 http://codeforces.com/problemset/tags/dp?order=BY_SOLVED_DESC
 
 
-* [Скука](http://codeforces.com/problemset/problem/455/A)
+* [Скука](http://codeforces.com/problemset/problem/455/A) -> [455A.cpp](https://github.com/alpinskiy/practicing-at-codeforces.com/blob/master/src/455A.cpp) (дп)
 * [Кефа и первые шаги](http://codeforces.com/problemset/problem/580/A) -> [580A.cpp](https://github.com/alpinskiy/practicing-at-codeforces.com/blob/master/src/580A.cpp) (два указателя)
 * [Пазлы](http://codeforces.com/problemset/problem/337/A) -> [337A.cpp](https://github.com/alpinskiy/practicing-at-codeforces.com/blob/master/src/337A.cpp) (дп)
 * [Шаасс и книжная полка](http://codeforces.com/problemset/problem/294/B) -> [294B.cpp](https://github.com/alpinskiy/practicing-at-codeforces.com/blob/master/src/294B.cpp) (жадные алгоритмы)
