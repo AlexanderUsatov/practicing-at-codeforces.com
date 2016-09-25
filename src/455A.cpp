@@ -1,32 +1,26 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-int const N = 100001;
-int n, a[N] = {}, m = 0, d[N][3] = {};
+int const N = 100000;
+int n, cnt[N + 1] = {}, m = 0;
+long long d[N + 1] = {};
 
 int main()
 {
-  //ifstream input("input.txt"); cin.rdbuf(input.rdbuf());
+  //fstream input("input.txt"); cin.rdbuf(input.rdbuf());
   cin >> n;
   for (auto i = 0; i < n; i++)
   {
-    int k; cin >> k;
-    a[k - 1]++;
-    m = max(m, k);
+    int t; cin >> t;
+    if (t > m) m = t;
+    cnt[t]++;
   }
 
-  for (auto j = 0; j < m; j++)
+  d[1] = cnt[1];
+  for (auto i = 2; i <= m; i++)
   {
-    for (auto i = 0; i < m; i++)
-    {
-      auto const k = j % 3;
-      auto const k_1 = (k + 2) % 3;
-      auto const k_2 = (k + 1) % 3;
-      d[i][k] = max(
-        d[i][k_1],
-        d[i][k_2] + (j + 1)*a[j]);
-    }
+    d[i] = max(d[i - 1], d[i - 2] + 1LL*cnt[i]*i);
   }
 
-  cout << d[m - 1][(m - 1) % 3] << endl;
+  cout << d[m] << endl;
 }
