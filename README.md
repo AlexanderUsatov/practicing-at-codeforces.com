@@ -6,7 +6,7 @@ http://codeforces.com/problemset/page/11?order=BY_SOLVED_DESC
 http://codeforces.com/problemset/tags/dp?order=BY_SOLVED_DESC
 
 
-* [Бал в БерлГУ](http://codeforces.com/problemset/problem/489/B)
+* [Бал в БерлГУ](http://codeforces.com/problemset/problem/489/B) -> (489B.cpp)[https://github.com/alpinskiy/practicing-at-codeforces.com/blob/master/src/489B.cpp] (паросочетания, жадные алгоритмы)
 * [Игра с переворачиванием](http://codeforces.com/contest/327/problem/A) -> [327A.cpp](https://github.com/alpinskiy/practicing-at-codeforces.com/blob/master/src/327A.cpp) (перебор, дп)
 * [Скука](http://codeforces.com/problemset/problem/455/A) -> [455A.cpp](https://github.com/alpinskiy/practicing-at-codeforces.com/blob/master/src/455A.cpp) (дп)
 * [Кефа и первые шаги](http://codeforces.com/problemset/problem/580/A) -> [580A.cpp](https://github.com/alpinskiy/practicing-at-codeforces.com/blob/master/src/580A.cpp) (два указателя)
