@@ -6,6 +6,7 @@ http://codeforces.com/problemset/page/11?order=BY_SOLVED_DESC
 http://codeforces.com/problemset/tags/dp?order=BY_SOLVED_DESC
 
 
+* [Сережа и суффиксы](http://codeforces.com/problemset/problem/368/B) -> [368B.cpp]()
 * [Джойстики](http://codeforces.com/contest/651/problem/A) -> [651A.cpp](https://github.com/alpinskiy/practicing-at-codeforces.com/blob/master/src/651A.cpp) (дп)
 * [Илья и запросы](http://codeforces.com/problemset/problem/313/B) -> [313B.cpp](https://github.com/alpinskiy/practicing-at-codeforces.com/blob/master/src/313B.cpp) (дп, реализация)
 * [Две подстроки](http://codeforces.com/problemset/problem/550/A) -> [550A.cpp](https://github.com/alpinskiy/practicing-at-codeforces.com/blob/master/src/550A.cpp) (перебор)
