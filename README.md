@@ -6,6 +6,7 @@ http://codeforces.com/problemset/page/11?order=BY_SOLVED_DESC
 http://codeforces.com/problemset/tags/dp?order=BY_SOLVED_DESC
 
 
+* [Наибольшее возрастание](http://codeforces.com/problemset/problem/702/A) -> [702A.cpp](https://github.com/alpinskiy/practicing-at-codeforces.com/blob/master/src/702A.cpp)
 * [Забор](http://codeforces.com/problemset/problem/363/B) -> [363B.cpp](https://github.com/alpinskiy/practicing-at-codeforces.com/blob/master/src/363B.cpp) (дп, перебор)
 * [Квазидвоичная сумма](http://codeforces.com/contest/538/problem/B) -> [538B.cpp](https://github.com/alpinskiy/practicing-at-codeforces.com/blob/master/src/538B.cpp)
 * [Количество способов](http://codeforces.com/problemset/problem/466/C) -> [466C.cpp](https://github.com/alpinskiy/practicing-at-codeforces.com/blob/master/src/466C.cpp)
