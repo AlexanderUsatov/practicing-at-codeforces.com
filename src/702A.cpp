@@ -14,7 +14,7 @@ int main() {
     int m = 0;
     for (int i = 0; i < n;) {
         int j = i + 1;
-        for (; i < n && j < n && a[j - 1] < a[j]; j++);
+        for (; j < n && a[j - 1] < a[j]; j++);
         m = max(m, j - i);
         i = j;
     }
