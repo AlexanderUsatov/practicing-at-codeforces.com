@@ -4,8 +4,8 @@ using namespace std;
 int n, a[100000];
 
 int main() {
-    ifstream input("input.txt");
-    cin.rdbuf(input.rdbuf());
+    //ifstream input("input.txt");
+    //cin.rdbuf(input.rdbuf());
 
     cin >> n;
     for (int i = 0; i < n; i++)
