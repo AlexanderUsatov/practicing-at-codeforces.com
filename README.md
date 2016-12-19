@@ -6,6 +6,7 @@ http://codeforces.com/problemset/page/11?order=BY_SOLVED_DESC
 http://codeforces.com/problemset/tags/dp?order=BY_SOLVED_DESC
 
 
+* [Делимость на восемь](http://codeforces.com/problemset/problem/550/C) -> [550C.cpp](https://github.com/alpinskiy/practicing-at-codeforces.com/blob/master/src/550C.cpp)
 * [Dreamoon и WiFi](http://codeforces.com/contest/476/problem/B) -> [476B.cpp](https://github.com/alpinskiy/practicing-at-codeforces.com/blob/master/src/476B.cpp)
 * [Наибольшее возрастание](http://codeforces.com/problemset/problem/702/A) -> [702A.cpp](https://github.com/alpinskiy/practicing-at-codeforces.com/blob/master/src/702A.cpp)
 * [Забор](http://codeforces.com/problemset/problem/363/B) -> [363B.cpp](https://github.com/alpinskiy/practicing-at-codeforces.com/blob/master/src/363B.cpp) (дп, перебор)
