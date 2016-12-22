@@ -1,4 +1,4 @@
-// see also
+// See also:
 // http://codeforces.com/blog/entry/18329?#comment-242724
 // http://codeforces.com/contest/550/submission/12143232
 
